@@ -1,0 +1,3 @@
+[submodule "ansible-aem"]
+	path = ansible-aem
+	url = https://github.com/id-nicola/ansible-aem.git

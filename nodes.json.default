@@ -1,0 +1,11 @@
+{
+  "nodes": {
+    "vagrant-box-name": {
+      ":node": "server-hostname",
+      ":ip": "33.33.33.10",
+      ":host": "vagrant.dev",
+      "ports": [],
+      ":memory": 3172
+    }
+   }
+}
