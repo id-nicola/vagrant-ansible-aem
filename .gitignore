@@ -109,7 +109,7 @@ $RECYCLE.BIN/
 *.msp
 echo "# ansible-aem" >> README.mdgit initgit remote add origin https://github.com/id-nicola/ansible-aem.gitgit remote add origin https://github.com/id-nicola/ansible-aem.gitgit push -u origin master
 # Windows shortcuts
-*.lnk
+*.lnkgit submodule add
 
 
 .idea
