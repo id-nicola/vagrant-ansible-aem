@@ -114,3 +114,4 @@ echo "# ansible-aem" >> README.mdgit initgit remote add origin https://github.co
 
 .idea
 .vagrant
+nodes.json
