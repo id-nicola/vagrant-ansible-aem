@@ -21,7 +21,9 @@ where they should live:
 Install AEM in vagrant
 ======================
 Once this is done you are ready to get going execute the following commands within the repository directory:
-```$ sudo chmod 775 init.sh
+
+```
+$ sudo chmod 775 init.sh
 $ ./init.sh
 $ vagrant up
 ```
