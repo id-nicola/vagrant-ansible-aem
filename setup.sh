@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-sudo chmod 775 ansible-aem/setup.sh
-cp nodes.json.default node.json
-./ansible-aem/setup.sh
 
 PS3='Install Ansible and Vagrant on: '
 options=("Mac [1]" "CentOS [2]" "Ubuntu [3]" "Quit [4]")
