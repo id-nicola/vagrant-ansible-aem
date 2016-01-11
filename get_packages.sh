@@ -1,41 +1,44 @@
 #!/usr/bin/env bash
+#Destination
+DEST='./ansible-aem/roles/aem-install/files'
+
 #Core
 #Vulnerability in the Apache POI Library (Hot fix 6449 *)
 HF_6449='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/aem610/hotfix/cq-6.1.0-hotfix-6449/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6449-1.2.zip'
-wget $HF_6449
+wget $HF_6449 $DEST
 #XSS vulnerability (Hot fix 7085 *)
 HF_7085='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-7085/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-7085-1.0.zip'
-wget $HF_7085
+wget $HF_7085 $DEST
 #Webdav security fix (Hot fix 6446 *)
 HF_6446='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/aem610/hotfix/cq-6.1.0-hotfix-6446/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6446-1.0.zip'
-wget $HF_6446
+wget $HF_6446 $DEST
 #XSS vulnerability in the Assets user interface (Hot fix 6500 *)
 HF_6500='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/aem610/hotfix/cq-6.1.0-hotfix-6500/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6500-1.5.zip'
-wget $HF_6500
+wget $HF_6500 $DEST
 
 
 #CRX - Oak 1.2.7 (Hot fix 7700 *)
 HF_7700='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-7700/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-7700-2.2.zip'
-wget $HF_7700
+wget $HF_7700 $DEST
 
 
 #Workflow - SegmentNotFoundException in workflow processing (Hot fix 6972 *)
 HF_6972='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-6972/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6972-1.0.zip'
-wget $HF_6972
+wget $HF_6972 $DEST
 
 
 #Miscellaneous
 #Installing packages with ResourceProviders can cause installation to fail (Hot fix 6640 *)
 HF_6640='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/aem610/hotfix/cq-6.1.0-hotfix-6640/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6640-1.4.zip'
-wget $HF_6640
+wget $HF_6640 $DEST
 #The web console sometimes becomes unusable after package installation (Hot fix 6680 *)
 HF_6680='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/aem610/hotfix/cq-6.1.0-hotfix-6680/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6680-1.2.zip'
-wget $HF_6680
+wget $HF_6680 $DEST
 
 
 #Sites - Toolbar buttons on Websites Search do not consider the ACL on all selected Rows (Hot fix 7285 *)
 HF_7285='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-7285/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-7285-1.0.zip'
-wget $HF_7285
+wget $HF_7285 $DEST
 
 
 #Integrations - Hot fix pack for various Adobe Target Integration fixes (Hot fix 6570 *)
