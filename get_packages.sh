@@ -42,12 +42,12 @@ wget $HF_7285 -P $DEST
 
 
 #Integrations - Hot fix pack for various Adobe Target Integration fixes (Hot fix 6570 *)
-#https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-6570/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6570-1.3.zip
-
+HF_6570='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/hotfix/cq-6.1.0-hotfix-6570/jcr%3acontent/package/file.res/cq-6.1.0-hotfix-6570-1.3.zip'
+wget $HF_6570 -P $DEST
 
 #Sites - The Touch-optimized UI Update Pack (Feature Pack 6563)
-#https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-6563/jcr%3acontent/package/file.res/cq-6.1.0-featurepack-6563-1.0.0.zip
-
+FP_6563='https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-6563/jcr%3acontent/package/file.res/cq-6.1.0-featurepack-6563-1.0.0.zip'
+wget $FP_6563 -P $DEST
 
 #Communities - This fix pack contains the latest set of fixes for AEM Communities 6.1 features (cq-socialcommunities-pkg * Version 1.7.199)
 #https://www.adobeaemcloud.com/content/companies/public/adobe/packages/cq610/social/hotfix/cq-socialcommunities-pkg/jcr%3acontent/package/file.res/AEM-6.1-Communities-HotFix-1.7.199.zip
