@@ -5,6 +5,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.box = "bento/centos-7.1"
   config.vm.box = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box"
 
+  config.vbguest.auto_update = false
+
   nodes_config.each do |node|
     node_name   = node[0] # name of node
     node_values = node[1] # content of node
