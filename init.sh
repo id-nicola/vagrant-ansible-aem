@@ -12,9 +12,9 @@ do
             ./get_packages-6_0.sh
         ;;
         "AEM 6.1 [2]")
-            get_packages-6_1.sh
+            ./get_packages-6_1.sh
         ;;
-        "Quit [4]")
+        "Quit [3]")
             exit
         ;;
         *) echo Invalid option;;
