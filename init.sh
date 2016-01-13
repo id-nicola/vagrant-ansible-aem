@@ -10,9 +10,11 @@ do
     case $opt in
         "AEM 6.0 [1]")
             ./get_packages-6_0.sh
+            break
         ;;
         "AEM 6.1 [2]")
             ./get_packages-6_1.sh
+            break
         ;;
         "Quit [3]")
             exit
